@@ -1,3 +1,20 @@
 {
-  "extends": "astro/tsconfigs/strict"
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@cv": [
+        "./cv.json"
+      ],
+      "@/*":[
+        "src/*"
+      ]
+    }
+  }
 }
+
+/*con el compilerOptions creamos un alias que luego nos permitara importar
+de una manera mas comoda cada components.*/
+
+/*con estas puntos lo que hacemos es llamamientos, en este caso al cv
+que acabamos de instaurar.*/
