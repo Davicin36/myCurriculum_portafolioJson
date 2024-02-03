@@ -1,8 +1,8 @@
 ---
 import { basics } from '@cv'
 
-const {name, label, image, email, phone} = basics
-
+const {name, label, image, email, phone, summary, location} = basics;
+const { city, countryCode, region } = location;
 ---
 
 <section>
@@ -10,14 +10,29 @@ const {name, label, image, email, phone} = basics
         <div class="info">
             <h1>{name}</h1>
             <h2>{label}</h2>
-            <h2>{image}</h2>
-            <h2>{email}</h2>
             <h2>{phone}</h2>
+            <h2>{summary}</h2>
             <span>
-                // aqui dice de poner un icono
-                
+                /* aqui dice de poner un icono*/
+               {city}, {countryCode}, {region} 
             </span>
+            <footer>
+                {
+                    email && (
+                        <a
+                            href={`mailto:${email}`}
+                            title={`Enviar un correo electronico a ${name} al correo ${email}`}
+                            target="_blanck"
+                            rel="noopener noreferrer"
+                        >
+                        </a>
+                    )
+                }
+            </footer>
         </div>
+        <figure>
+            <img src={image} alt={name}; />
+        </figure>
     </div>
 </section>
 
