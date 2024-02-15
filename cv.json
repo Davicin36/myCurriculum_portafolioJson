@@ -5,7 +5,7 @@
       "image": "",
       "email": "dalvroc96@gmail.com",
       "phone": "(+34) 654 55 02 12",
-      "summary": "A summary of John Doe…",
+      "summary": "Justo ahora mismo me estoy iniciando en el desarrollo de aplicaciones web y de apps multiplataforma",
       "location": {
         "address": "Avenida Juan Gris 15 ",
         "postalCode": "28840",
@@ -15,18 +15,18 @@
       },
 
       "profiles": [{
-        "network": "Twitter",
-        "username": "john",
-        "url": "https://twitter.com/john"
+        "network": "Instagram",
+        "username": "DAvid",
+        "url": "https://www.instagram.com/david.a.roca.988/"
       }]
     },
     "work": [{
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
+      "name": "Ministerio de Defensa",
+      "position": "Cabo de Ingenieros en BRIPAC (Brigada Paracaidista)",
+      "url": "https://www.defensa.gob.es/",
+      "startDate": "04-09-2006",
+      "endDate": "15-12-2017",
+      "summary": "Mi principal función ha sido la de gestionar y mandar a pequeños grupos de gente para que se llevarán a cabo las distintas misiones encomendadas, entre todos siempre hemos sacado el trabajo adelante.",
       "highlights": [
         "Started the company"
       ]
@@ -43,15 +43,27 @@
       ]
     }],
     "education": [{
-      "institution": "University",
+      "institution": "Colegio San Miguel, Barcelona",
       "url": "https://institution.com/",
-      "area": "Software Development",
-      "studyType": "Bachelor",
+      "area": "Rama Cientifica",
+      "studyType": "ESO, Educación Secundaria Obligatoria",
       "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
+      "endDate": "20-06-2006",
       "score": "4.0",
       "courses": [
-        "DB1101 - Basic SQL"
+        ""
+      ]
+    },
+    {
+      "institution": "Instituo de formacion integral Claudio Galeno",
+      "url": "https://institution.com/",
+      "area": "Grado Medio de Tecnico en Emergencias Sanitarias",
+      "studyType": "Grado Medio",
+      "startDate": "05-09-2021",
+      "endDate": "30-05-2023",
+      "score": "8.25",
+      "courses": [
+        ""
       ]
     }],
     "awards": [{
@@ -84,7 +96,12 @@
     }],
     "languages": [{
       "language": "English",
-      "fluency": "Native speaker"
+      "fluency": "B-2"
+    },
+    {
+      "language": "español",
+      "fluency": "Nativo"
+
     }],
     "interests": [{
       "name": "Wildlife",
