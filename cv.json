@@ -16,7 +16,7 @@
 
       "profiles": [{
         "network": "Instagram",
-        "username": "DAvid",
+        "username": "David",
         "url": "https://www.instagram.com/david.a.roca.988/"
       }]
     },
@@ -30,16 +30,27 @@
       "highlights": [
         "Started the company"
       ]
-    }],
-    "volunteer": [{
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
+    },
+    {
+      "name": "Inditex",
+      "position": "Mozo de Almacen en ZaraHome",
+      "url": "",
+      "startDate": "2018-09-15",
+      "endDate": "2025-10-01",
+      "summary": "Mi principal función ha sido preparar los paquetes mediante pda y prepararlos para los envios a cada tienda.",
       "highlights": [
-        "Awarded 'Volunteer of the Month'"
+        ""
+      ]
+    },
+    {
+      "name": "Ministerio de Defensa",
+      "position": "Cabo en Unidad Militar de Emergencias (UME)",
+      "url": "https://www.defensa.gob.es/",
+      "startDate": "2006-09-04",
+      "endDate": "2017-12-15",
+      "summary": "Mi principal función ha sido intervenir en la extinción de incendios y posteriormente en ele manejo de vehiculos pesados.",
+      "highlights": [
+        "Started the company"
       ]
     }],
     "education": [{
@@ -50,6 +61,18 @@
       "startDate": "2011-01-01",
       "endDate": "2006-06-20",
       "score": "4.0",
+      "courses": [
+        ""
+      ]
+    },
+    {
+      "institution": "Instituo de formacion integral Claudio Galeno",
+      "url": "https://institution.com/",
+      "area": "Grado Medio de Tecnico en Emergencias Sanitarias",
+      "studyType": "Grado Medio",
+      "startDate": "2021-09-05",
+      "endDate": "2023-05-30",
+      "score": "8.25",
       "courses": [
         ""
       ]
@@ -91,7 +114,8 @@
       "keywords": [
         "HTML",
         "CSS",
-        "JavaScript"
+        "JavaScript",
+        "Java"
       ]
     }],
     "languages": [{
@@ -99,7 +123,12 @@
       "fluency": "B-2"
     },
     {
-      "language": "español",
+      "language": "Español",
+      "fluency": "Nativo"
+
+    },
+    {
+      "language": "Catalán",
       "fluency": "Nativo"
 
     }],
@@ -109,10 +138,6 @@
         "Ferrets",
         "Unicorns"
       ]
-    }],
-    "references": [{
-      "name": "Jane Doe",
-      "reference": "Reference…"
     }],
     "projects": [{
       "name": "Project",
